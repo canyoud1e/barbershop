@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="100%" height="100%" fill="#101010" />
+  <rect x="20" y="20" width="360" height="360" rx="16" fill="#181818" stroke="#282828" stroke-width="1.5" />
+  <!-- Scissors, Combs or Razors icons visually representing style -->
+  <g stroke="#E8E8E8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(100, 100) scale(1.2)">
+    <!-- Razor -->
+           <path d="M40 60 L120 60 L110 80 L50 80 Z" stroke-width="2" fill="#E8E8E8" fill-opacity="0.1" />
+           <path d="M40 60 C 30 60, 20 80, 40 140 L50 135" />
+           <path d="M120 60 C 130 60, 140 80, 120 140 L110 135" />
+  </g>
+  <text x="50%" y="320" dominant-baseline="middle" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#AAAAAA" font-weight="300" letter-spacing="2">NOIR STYLE #3</text>
+  <text x="50%" y="342" dominant-baseline="middle" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#666666" font-weight="400" letter-spacing="1.5">BEARD</text>
+</svg>

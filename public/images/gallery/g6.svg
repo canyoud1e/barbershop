@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="100%" height="100%" fill="#101010" />
+  <rect x="20" y="20" width="360" height="360" rx="16" fill="#181818" stroke="#282828" stroke-width="1.5" />
+  <!-- Scissors, Combs or Razors icons visually representing style -->
+  <g stroke="#E8E8E8" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" transform="translate(100, 100) scale(1.2)">
+    <!-- Hair brush / comb -->
+           <line x1="30" y1="60" x2="130" y2="60" stroke-width="3" />
+           <line x1="30" y1="60" x2="30" y2="120" />
+           <line x1="50" y1="60" x2="50" y2="120" />
+           <line x1="70" y1="60" x2="70" y2="120" />
+           <line x1="90" y1="60" x2="90" y2="120" />
+           <line x1="110" y1="60" x2="110" y2="120" />
+           <line x1="130" y1="60" x2="130" y2="120" />
+  </g>
+  <text x="50%" y="320" dominant-baseline="middle" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" fill="#AAAAAA" font-weight="300" letter-spacing="2">NOIR STYLE #6</text>
+  <text x="50%" y="342" dominant-baseline="middle" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#666666" font-weight="400" letter-spacing="1.5">STYLE</text>
+</svg>
