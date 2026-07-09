@@ -33,7 +33,7 @@ function MasterCard({ master, onClick }: { master: Master; onClick: () => void }
           src={master.imageUrl}
           alt={`Фото майстра ${master.name}`}
           fill
-          className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
+          className="object-cover transition-all duration-700 group-hover:scale-105"
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
         />
         <div

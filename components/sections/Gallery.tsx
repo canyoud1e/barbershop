@@ -158,8 +158,8 @@ export function Gallery() {
                 src={item.imageUrl}
                 alt={item.alt}
                 fill
-                className="object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
-                sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                className="object-cover group-hover:scale-105 transition-all duration-500"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               />
               <div
                 className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-300"

@@ -16,11 +16,11 @@ const config: Config = {
           card: '#1c1c1c',
           elevated: '#242424',
         },
-        // Accent — off-white / silver
+        // Accent — premium gold
         accent: {
-          DEFAULT: '#E8E8E8',
-          dim: '#A0A0A0',
-          subtle: '#3A3A3A',
+          DEFAULT: '#D4AF37',
+          dim: '#AA8C2C',
+          subtle: '#4A3E15',
         },
         // Text
         text: {
