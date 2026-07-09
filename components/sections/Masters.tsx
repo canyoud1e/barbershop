@@ -23,8 +23,7 @@ function expLabel(years: number) {
 function MasterCard({ master, onClick }: { master: Master; onClick: () => void }) {
   return (
     <article
-      className="group bg-bg-card border border-border rounded-card-lg overflow-hidden hover:border-border-light hover:shadow-card-hover transition-all duration-500 cursor-pointer"
-      aria-label={`Майстер: ${master.name}`}
+      className="group relative bg-bg-card border border-border rounded-card overflow-hidden cursor-pointer hover:border-border-light transition-all duration-300 hover:-translate-y-1 h-full flex flex-col w-full flex-1"
       onClick={onClick}
     >
       {/* Photo */}
@@ -256,7 +255,7 @@ export function Masters() {
 
         <div className="flex sm:grid sm:grid-cols-2 lg:grid-cols-4 gap-6 overflow-x-auto snap-x snap-mandatory pb-4 scrollbar-none -mx-6 px-6 sm:mx-0 sm:px-0">
           {MASTERS.map((master) => (
-            <div key={master.id} className="min-w-[280px] w-[85vw] sm:w-auto sm:min-w-0 snap-center shrink-0">
+            <div key={master.id} className="min-w-[280px] w-[85vw] sm:w-auto sm:min-w-0 snap-center shrink-0 flex flex-col items-stretch">
               <MasterCard
                 master={master}
                 onClick={() => setSelected(master)}

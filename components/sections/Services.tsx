@@ -131,7 +131,7 @@ export function Services() {
           aria-label="Список послуг"
         >
           {filtered.map((service) => (
-            <div key={service.id} role="listitem" className="h-full min-w-[280px] w-[85vw] sm:w-auto sm:min-w-0 snap-center shrink-0">
+            <div key={service.id} role="listitem" className="h-full min-w-[280px] w-[85vw] sm:w-auto sm:min-w-0 snap-center shrink-0 flex flex-col items-stretch">
               <ServiceCard service={service} onBook={handleBook} />
             </div>
           ))}
